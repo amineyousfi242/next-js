@@ -23,18 +23,17 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="inkdrop" title="Netflix 2.0" thumbnail={thumbInkdrop}>
+            A cloned Netflix Plateform 
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
             id="walknote"
-            title="walknote"
+            title="MAM"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            E-commmerce Website 
           </WorkGridItem>
         </Section>
 
@@ -97,8 +96,8 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Portfolio">
+            First Portfolio using HTML , CSS, JS
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>

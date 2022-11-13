@@ -2,6 +2,13 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
+import Image from 'next/image';
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
 import thumbHowToUseInkdrop from '../public/images/contents/youtube-how-to-use-inkdrop.jpg'
@@ -12,11 +19,11 @@ import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.pn
 import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
 import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
 
-const Posts = () => (
+const Contact = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        My Current Skills
+        Contact Me
       </Heading>
 
       <Section delay={0.1}>
@@ -74,8 +81,9 @@ const Posts = () => (
         </SimpleGrid>
       </Section>
     </Container>
+    
   </Layout>
 )
 
-export default Posts
+export default Contact
 export { getServerSideProps } from '../components/chakra'
