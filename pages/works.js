@@ -65,9 +65,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="First_Portfolio">
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>

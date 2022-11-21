@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
-        Inkdrop <Badge>2016-</Badge>
+        Netflix 2.0 <Badge>2022</Badge>
       </Title>
       <P>
         A Markdown note-taking app with 100+ plugins, cross-platform and
@@ -23,13 +23,13 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>MAM</Meta>
           <Link href="https://www.inkdrop.app/">
             https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Platform</Meta>
+          <Meta>First_Portfolio</Meta>
           <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
         <ListItem>
