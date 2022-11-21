@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/craftzdog/craftzdog-homepage.git"
+    "url": "git+https://github.com/amineyousfi242/portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/craftzdog/craftzdog-homepage/issues"
+    "url": "https://github.com/amineyousfi242"
   },
-  "homepage": "https://github.com/craftzdog/craftzdog-homepage#readme"
+  "homepage": "https://github.com/amineyousfi242"
 }
