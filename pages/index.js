@@ -84,16 +84,8 @@ const Home = () => (
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, I love
           hanging out with friends. Currently, I am living off of my own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>MAM</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">MyApp</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          product called MAM
+          
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/public\CV_AMINE_YOUSFI.pdf" download="CV_AMINE_YOUSFI.pdf" passHref scroll={false}>
