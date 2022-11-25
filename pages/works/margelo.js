@@ -4,7 +4,7 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
+  
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -18,8 +18,8 @@ const Work = () => (
         Portfolio <Badge>2021</Badge>
       </Title>
       <P>
-        The corporate website for the elite app development and contracting
-        agency based in Vienna, Austria.
+        Building my first ever portfolio to practice my skills in
+        HTML,CSS and JavaScript   
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -37,25 +37,14 @@ const Work = () => (
           </span>
         </ListItem>
         <ListItem>
-          <Meta>Source Video</Meta>
-          <Link href="https://www.youtube.com/watch?v=GznmPACXBlY">
-            How I built a software agency website with Next.js + Tailwind CSS
-            (in nature) <ExternalLinkIcon mx="2px" />
-          </Link>
+          
+         
         </ListItem>
       </List>
 
       <WorkImage src="/images/works/margelo_eyecatch.png" alt="Website" />
 
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
-        <iframe
-          src="https://www.youtube.com/embed/GznmPACXBlY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </AspectRatio>
+      
 
       <WorkImage src="/images/works/margelo_01.png" alt="Margelo" />
       <WorkImage src="/images/works/margelo_02.png" alt="Margelo" />

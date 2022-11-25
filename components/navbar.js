@@ -75,7 +75,7 @@ const Navbar = props => {
             Works
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Posts
+            Skills
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -111,7 +111,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/amineyoussfi242"
                 >
                   Github
                 </MenuItem>
